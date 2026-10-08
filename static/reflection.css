@@ -1,0 +1,25 @@
+/* The reflection uses Rachel's lavender and plum article palette within the existing site navigation. */
+.reflection-page { background:#fbf9fc; color:#352b39; }
+.reflection-hero { min-height:450px; display:grid; place-items:center; padding:80px 24px; text-align:center; background:radial-gradient(ellipse at 50% 0%, #f9f5fb 0%, #eee8f3 72%); border-bottom:1px solid #d8ccdc; }
+.reflection-hero-inner { max-width:800px; }
+.reflection-eyebrow,.reflection-byline { font:600 12px/1.5 system-ui,sans-serif; letter-spacing:.17em; text-transform:uppercase; color:#503956; }
+.reflection-eyebrow { margin:0 0 26px; }
+.reflection-hero h1 { margin:0; color:#503956; font:400 clamp(3rem,7vw,5.5rem)/1.08 Georgia,serif; letter-spacing:-.045em; }
+.reflection-rule { width:64px; height:1px; margin:31px auto 23px; background:#ad92b9; }
+.reflection-dek { max-width:575px; margin:0 auto; font:clamp(1.15rem,2vw,1.4rem)/1.5 Georgia,serif; color:#66596b; }
+.reflection-byline { margin:28px 0 0; letter-spacing:.12em; }
+.reflection-content { max-width:780px; margin:auto; padding:70px 26px 90px; }
+.reflection-content article { font:18px/1.8 Georgia,'Times New Roman',serif; }
+.reflection-content article p { margin:0 0 1.35em; }
+.reflection-content article .lead { font-size:1.3rem; line-height:1.65; color:#503956; }
+.reflection-content article em { color:#503956; }
+.reflection-content .questions { margin:34px 0 43px; padding:29px 34px; border-left:3px solid #ae92bb; background:#f3edf6; border-radius:0 14px 14px 0; }
+.reflection-content .questions p { margin:0 0 .45em; color:#503956; font-style:italic; font-size:1.18rem; }
+.reflection-content .questions p:last-child { margin-bottom:0; }
+.reflection-pause { margin:45px auto; color:#aa91b5; font-size:22px; text-align:center; }
+.reflection-content blockquote { margin:54px -20px; padding:42px 30px; border-top:1px solid #d8ccdc; border-bottom:1px solid #d8ccdc; text-align:center; color:#503956; font-size:clamp(1.55rem,3vw,2rem); line-height:1.42; }
+.reflection-content .closing { color:#503956; font-size:1.15rem; }
+.reflection-actions { display:flex; flex-wrap:wrap; gap:.75rem; margin-top:48px; padding-top:25px; border-top:1px solid #d8ccdc; }
+.reflection-actions .btn { border-color:#bba6c4; color:#503956; }
+.reflection-actions .btn:hover { background:#eee8f3; }
+@media(max-width:650px) { .reflection-hero { min-height:390px; padding:60px 22px; } .reflection-content { padding:50px 23px 72px; } .reflection-content article { font-size:17px; } .reflection-content blockquote { margin:42px 0; padding:30px 8px; } .reflection-content .questions { padding:23px 21px; } }

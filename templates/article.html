@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#eee8f3" name="theme-color"/>
+<title>{{article_title}} | Rachel Boyer, LMFT</title>
+<meta content="{{article_summary}}" name="description"/>
+<link href="{{article_canonical}}" rel="canonical"/>
+<link href="/styles.css" rel="stylesheet"/>
+<link href="/reflection.css" rel="stylesheet"/>
+<link href="/cms-site.css" rel="stylesheet"/></head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<a aria-label="Rachel Boyer, LMFT home" class="brand" href="/">
+<div class="brand-mark">RB</div>
+<div class="brand-text">
+<div class="brand-name">Rachel Boyer, LMFT</div>
+<div class="brand-subtitle">Licensed Marriage &amp; Family Therapist · California</div>
+</div>
+</a>
+<nav class="nav">
+<a href="/#about">About</a>
+<a href="/#services">Services</a>
+<a href="/#breathwork">Breathwork</a>
+<a href="/#coaching">Coaching</a>
+<a href="/#coaching-faq">Coaching FAQ</a>
+<a href="/#approach">Approach</a>
+<a href="/#fees">Fees &amp; FAQs</a>
+<a aria-current="page" href="/reflections/">Reflections</a>
+<a class="nav-cta" href="/#book">Book</a>
+</nav>
+</div>
+</header>
+<main class="reflection-page" id="main-content">
+<section aria-labelledby="reflection-title" class="reflection-hero">
+<div class="reflection-hero-inner">
+<p class="reflection-eyebrow">A reflection on connection</p>
+<h1 id="reflection-title">{{article_title}}</h1>
+<div aria-hidden="true" class="reflection-rule"></div>
+<p class="reflection-dek">{{article_summary}}</p>
+<p class="reflection-byline">Rachel Boyer, LMFT</p>
+</div>
+</section>
+<div class="reflection-content">
+<article aria-label="{{article_title}}">{{article_body}}</article>
+<div class="reflection-actions">{{article_actions}}</div>
+</div>
+</main>
+<footer class="site-footer">
+<div class="container footer-inner">
+<div>© <span id="year"></span> Rachel Boyer, LMFT</div>
+<div class="footer-links">
+<a href="/#book">Book</a>
+<a href="/#contact">Contact</a>
+<a href="/#fees">Fees</a>
+<a href="/reflections/">Reflections</a>
+</div>
+</div>
+<script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</footer>
+</body>
+</html>

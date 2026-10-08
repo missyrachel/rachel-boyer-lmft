@@ -1,0 +1,450 @@
+{
+  "welcome.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "welcome.text_02": {
+    "tag": "h1",
+    "attrs": {}
+  },
+  "welcome.text_03": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "hero-subtitle"
+      ]
+    }
+  },
+  "welcome.text_04": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "note"
+      ]
+    }
+  },
+  "welcome.text_05": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "welcome.text_06": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "welcome.text_07": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "welcome.text_08": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "welcome.text_09": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "welcome.text_10": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "hero-card-text"
+      ]
+    }
+  },
+  "about.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "about.text_02": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "about.text_03": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "about.text_04": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "about.text_05": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "about.text_06": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "about.text_07": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "about.text_08": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "about.text_09": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "about.text_10": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "about.text_11": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "about.text_12": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "about.text_13": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "about.text_14": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "about.text_15": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "services.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "services.text_02": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "services.text_03": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "services.text_04": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "services.text_05": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "services.text_06": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "services.text_07": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "services.text_08": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "breathwork.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "breathwork.text_02": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "breathwork.text_03": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "breathwork.text_04": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "breathwork.text_05": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "breathwork.text_06": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "breathwork.text_07": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "breathwork.text_08": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "breathwork.text_09": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "breathwork.text_10": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "breathwork.text_11": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "breathwork.text_12": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "note"
+      ]
+    }
+  },
+  "coaching.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "coaching.text_02": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "coaching.text_03": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "coaching.text_04": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "coaching.text_05": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "coaching.text_06": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "coaching.text_07": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "coaching.text_08": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "coaching.text_09": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "note"
+      ]
+    }
+  },
+  "coaching-faq.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "coaching-faq.text_02": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "coaching-faq.text_03": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "coaching-faq.text_04": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "coaching-faq.text_05": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "coaching-faq.text_06": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "coaching-faq.text_07": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "coaching-faq.text_08": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "coaching-faq.text_09": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "coaching-faq.text_10": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "approach.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "approach.text_02": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "approach.text_03": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "approach.text_04": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "approach.text_05": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "approach.text_06": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "approach.text_07": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "approach.text_08": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "approach.text_09": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "approach.text_10": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "approach.text_11": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "approach.text_12": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "fees.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "fees.text_02": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "fees.text_03": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "fees.text_04": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "fees.text_06": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "fees.text_07": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "book.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "book.text_02": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "book.text_03": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "book.text_04": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "book.text_05": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "book.text_06": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "book.text_07": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "book.text_08": {
+    "tag": "li",
+    "attrs": {}
+  },
+  "contact.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "contact.text_02": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "contact.text_03": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "contact.text_04": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "note"
+      ]
+    }
+  },
+  "contact.text_05": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "contact.text_08": {
+    "tag": "p",
+    "attrs": {}
+  }
+}

@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>{{title}}</title>
+<meta content="{{description}}" name="description"/>
+<link href="styles.css" rel="stylesheet"/>
+<link href="/cms-site.css" rel="stylesheet"/></head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<div class="brand">
+<div class="brand-mark">RB</div>
+<div class="brand-text">
+<div class="brand-name">Rachel Boyer, LMFT</div>
+<div class="brand-subtitle">Licensed Marriage &amp; Family Therapist · California</div>
+</div>
+</div>
+<nav class="nav">
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#breathwork">Breathwork</a>
+<a href="#coaching">Coaching</a>
+<a href="#coaching-faq">Coaching FAQ</a>
+<a href="#approach">Approach</a>
+<a href="#fees">Fees &amp; FAQs</a>
+<a href="/reflections/">Reflections</a>
+<a class="nav-cta" href="#book">Book</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="hero">
+<div class="container hero-grid">
+<div class="hero-text">
+{{welcome.text_01}}
+{{welcome.text_02}}
+{{welcome.text_03}}
+<div class="hero-actions">
+<a class="btn primary" href="{{booking_url}}">Book therapy through Headway</a>
+<a class="btn ghost" href="#approach">Learn about my approach</a>
+</div>
+{{welcome.text_04}}
+</div>
+<div class="hero-card">
+{{welcome.text_05}}
+<ul>
+{{welcome.text_06}}
+{{welcome.text_07}}
+{{welcome.text_08}}
+{{welcome.text_09}}
+</ul>
+{{welcome.text_10}}
+</div>
+</div>
+</section>
+<section class="section" id="about">
+<div class="container section-grid">
+<div>
+{{about.text_01}}
+{{about.text_02}}
+<img alt="Rachel Boyer headshot" src="{{headshot}}" style="max-width:250px;border-radius:16px;margin:1rem 0;"/>
+{{about.text_03}}
+{{about.text_04}}
+{{about.text_05}}
+</div>
+<div class="about-card">
+{{about.text_06}}
+<ul>
+{{about.text_07}}
+{{about.text_08}}
+{{about.text_09}}
+{{about.text_10}}
+{{about.text_11}}
+{{about.text_12}}
+{{about.text_13}}
+{{about.text_14}}
+{{about.text_15}}
+</ul>
+</div>
+</div>
+</section>
+<section class="section section-alt" id="services">
+<div class="container">
+{{services.text_01}}
+{{services.text_02}}
+<div class="cards-3">
+<article class="card">
+{{services.text_03}}
+{{services.text_04}}
+</article>
+<article class="card">
+{{services.text_05}}
+{{services.text_06}}
+</article>
+<article class="card">
+{{services.text_07}}
+{{services.text_08}}
+</article>
+</div>
+</div>
+</section>
+<section class="section" id="breathwork">
+<div class="container section-grid">
+<div>
+{{breathwork.text_01}}
+{{breathwork.text_02}}
+{{breathwork.text_03}}
+{{breathwork.text_04}}
+{{breathwork_price_html}}
+{{breathwork.text_05}}
+</div>
+<div class="about-card">
+{{breathwork.text_06}}
+<ul>
+{{breathwork.text_07}}
+{{breathwork.text_08}}
+{{breathwork.text_09}}
+{{breathwork.text_10}}
+{{breathwork.text_11}}
+</ul>
+{{breathwork.text_12}}
+</div>
+</div>
+</section>
+<section class="section section-alt" id="coaching">
+<div class="container section-grid">
+<div>
+{{coaching.text_01}}
+{{coaching.text_02}}
+{{coaching.text_03}}
+{{coaching.text_04}}
+</div>
+<div class="about-card">
+{{coaching.text_05}}
+<ul>
+{{coaching.text_06}}
+{{coaching.text_07}}
+{{coaching.text_08}}
+</ul>
+{{coaching.text_09}}
+</div>
+</div>
+</section>
+<section class="section" id="coaching-faq">
+<div class="container">
+{{coaching-faq.text_01}}
+{{coaching-faq.text_02}}
+<div class="cards-2">
+<article class="card">
+{{coaching-faq.text_03}}
+{{coaching-faq.text_04}}
+</article>
+<article class="card">
+{{coaching-faq.text_05}}
+{{coaching-faq.text_06}}
+</article>
+<article class="card">
+{{coaching-faq.text_07}}
+{{coaching-faq.text_08}}
+</article>
+<article class="card">
+{{coaching-faq.text_09}}
+{{coaching-faq.text_10}}
+</article>
+</div>
+</div>
+</section>
+<section class="section" id="approach">
+<div class="container section-grid">
+<div>
+{{approach.text_01}}
+{{approach.text_02}}
+{{approach.text_03}}
+{{approach.text_04}}
+{{approach.text_05}}
+{{approach.text_06}}
+</div>
+<div class="pillars">
+<div class="pillar">
+{{approach.text_07}}
+{{approach.text_08}}
+</div>
+<div class="pillar">
+{{approach.text_09}}
+{{approach.text_10}}
+</div>
+<div class="pillar">
+{{approach.text_11}}
+{{approach.text_12}}
+</div>
+</div>
+</div>
+</section>
+{{reflections_html}}
+<section class="section section-alt" id="fees">
+<div class="container">
+{{fees.text_01}}
+{{fees.text_02}}
+<div class="cards-2">
+<article class="card">
+{{fees.text_03}}
+{{fees_html}}
+{{fees.text_04}}
+<p>
+              For individual therapy using insurance, visit <a href="{{booking_url}}">my Headway profile</a> to check your plan and booking options. Coverage and costs depend on your specific plan. For private-pay therapy, please contact me to discuss fees and whether a superbill is available. Breathwork and coaching are generally not reimbursable by insurance.
+            </p>
+</article>
+<article class="card">
+{{fees.text_06}}
+{{hours_html}}
+{{fees.text_07}}
+</article>
+</div>
+</div>
+</section>
+<section class="section" id="book">
+<div class="container section-grid">
+<div>
+{{book.text_01}}
+{{book.text_02}}
+{{book.text_03}}
+{{book.text_04}}
+</div>
+<div class="about-card">
+{{book.text_05}}
+<ol>
+{{book.text_06}}
+{{book.text_07}}
+{{book.text_08}}
+</ol>
+<div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+<a class="btn primary" href="{{booking_url}}">Book therapy through Headway</a>
+<a class="btn ghost" href="#contact">Contact me first</a>
+</div>
+</div>
+</div>
+</section>
+<section class="section contact-section" id="contact">
+<div class="container section-grid">
+<div>
+{{contact.text_01}}
+{{contact.text_02}}
+{{contact.text_03}}
+{{contact.text_04}}
+</div>
+<div class="contact-card contact-call-card">
+{{contact.text_05}}
+<p><a href="{{email_href}}" style="overflow-wrap: anywhere;">{{email}}</a></p>
+<p><a class="phone-number" href="{{phone_href}}">{{phone}}</a></p>
+{{contact.text_08}}
+<div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+<a class="btn primary" href="{{email_href}}">Contact Me</a>
+<a class="btn ghost" href="{{phone_href}}">Call Rachel</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-inner">
+<div>© <span id="year"></span> Rachel Boyer, LMFT</div>
+<div class="footer-links">
+<a href="#book">Book</a>
+<a href="#contact">Contact</a>
+<a href="#fees">Fees</a>
+<a href="/reflections/">Reflections</a>
+</div>
+</div>
+<script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</footer>
+</body>
+</html>

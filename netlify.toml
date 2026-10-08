@@ -1,0 +1,18 @@
+[build]
+  command = "pip install -r requirements.txt && python3 build.py"
+  publish = "dist"
+
+[build.environment]
+  PYTHON_VERSION = "3.13"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Cache-Control = "no-store"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

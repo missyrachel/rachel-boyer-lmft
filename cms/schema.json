@@ -1,0 +1,1785 @@
+{
+  "site_url": "https://rachelboyerlmft.com",
+  "display_url": "https://rachelboyerlmft.com",
+  "logo_url": "/headshot.jpg",
+  "media_folder": "static/uploads",
+  "public_folder": "/uploads",
+  "collections": [
+    {
+      "name": "settings",
+      "label": "Fees, hours & contact",
+      "files": [
+        {
+          "name": "practice",
+          "label": "Practice settings",
+          "file": "content/settings.json",
+          "fields": [
+            {
+              "label": "Browser page title",
+              "name": "title",
+              "widget": "string"
+            },
+            {
+              "label": "Search description",
+              "name": "description",
+              "widget": "text"
+            },
+            {
+              "label": "Email",
+              "name": "email",
+              "widget": "string"
+            },
+            {
+              "label": "Phone",
+              "name": "phone",
+              "widget": "string"
+            },
+            {
+              "label": "Headway booking link",
+              "name": "booking_url",
+              "widget": "string"
+            },
+            {
+              "label": "Headshot",
+              "name": "headshot",
+              "widget": "image"
+            },
+            {
+              "label": "Individual therapy fee ($)",
+              "name": "individual_fee",
+              "widget": "number",
+              "value_type": "float",
+              "min": 0
+            },
+            {
+              "label": "Individual therapy minutes",
+              "name": "individual_minutes",
+              "widget": "number",
+              "value_type": "int",
+              "min": 1
+            },
+            {
+              "label": "Couples therapy fee ($)",
+              "name": "couples_fee",
+              "widget": "number",
+              "value_type": "float",
+              "min": 0
+            },
+            {
+              "label": "Couples therapy minutes",
+              "name": "couples_minutes",
+              "widget": "number",
+              "value_type": "int",
+              "min": 1
+            },
+            {
+              "label": "Breathwork fee ($)",
+              "name": "breathwork_fee",
+              "widget": "number",
+              "value_type": "float",
+              "min": 0
+            },
+            {
+              "label": "Breathwork minutes",
+              "name": "breathwork_minutes",
+              "widget": "number",
+              "value_type": "int",
+              "min": 1
+            },
+            {
+              "label": "Monday–Friday hours",
+              "name": "weekday_hours",
+              "widget": "string"
+            },
+            {
+              "label": "Saturday hours",
+              "name": "saturday_hours",
+              "widget": "string"
+            },
+            {
+              "label": "Sunday hours",
+              "name": "sunday_hours",
+              "widget": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pages",
+      "label": "Website text",
+      "files": [
+        {
+          "label": "Welcome",
+          "name": "welcome",
+          "file": "content/pages/welcome.json",
+          "fields": [
+            {
+              "label": "Online therapy across California",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Support for the season of life you are in right now.",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "I offer warm, grounded, evidence-based therapy to help you move from over…",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Serving adults and couples via secure video throughout California.",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Is this you?",
+              "name": "text_05",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "You feel “on” for everyone else but struggle to slow down and feel grounded.",
+              "name": "text_06",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "You’re managing anxiety, mood changes, or major life transitions.",
+              "name": "text_07",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "You’re longing for healthier, more authentic relationships.",
+              "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "You want tools that are practical and actionable, not just “talking about…",
+              "name": "text_09",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Therapy can be a place to pause, breathe, and gently reconnect with yours…",
+              "name": "text_10",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "About",
+          "name": "about",
+          "file": "content/pages/about.json",
+          "fields": [
+            {
+              "label": "About",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Hi, I’m Rachel.",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "I’m a Licensed Marriage and Family Therapist (LMFT) offering online thera…",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "My style is warm, collaborative, and gently direct. I value honesty, curi…",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "In our work, I often draw on mindfulness and embodied awareness, helping …",
+              "name": "text_05",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Areas of focus & specialties",
+              "name": "text_06",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Depression and low mood",
+              "name": "text_07",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Anxiety, worry, and overthinking",
+              "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Communication difficulties",
+              "name": "text_09",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Relationship and couples issues",
+              "name": "text_10",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Trauma and complex family dynamics",
+              "name": "text_11",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Addiction and substance use concerns",
+              "name": "text_12",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Alcohol use and recovery support",
+              "name": "text_13",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Life transitions and identity shifts",
+              "name": "text_14",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "LGBTQ+ affirming care and identity exploration",
+              "name": "text_15",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Services",
+          "name": "services",
+          "file": "content/pages/services.json",
+          "fields": [
+            {
+              "label": "Services",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: How we can work together",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Individual Therapy",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "50-minute sessions focused on your unique story, strengths, and goals.\n  …",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Couples & Relationship Therapy",
+              "name": "text_05",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "For partners navigating conflict, communication struggles, life transitio…",
+              "name": "text_06",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Consultation",
+              "name": "text_07",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Brief consultation and collaboration with other providers, such as psychi…",
+              "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Breathwork",
+          "name": "breathwork",
+          "file": "content/pages/breathwork.json",
+          "fields": [
+            {
+              "label": "Neurodynamic Breathwork",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Breath as a doorway to deeper awareness.",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "In addition to talk therapy, I offer neurodynamic-style breathwork sessio…",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Breathwork can support release of stored tension, increase access to emot…",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "We will always discuss your history, intentions, and any medical or psych…",
+              "name": "text_05",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Breathwork sessions may support",
+              "name": "text_06",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Deepening connection to your body and emotions",
+              "name": "text_07",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Releasing stress and accumulated tension",
+              "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Processing grief, transition, or feeling “stuck”",
+              "name": "text_09",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Accessing insight around patterns and values",
+              "name": "text_10",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Integrating therapeutic work on a felt, embodied level",
+              "name": "text_11",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Breathwork can be incorporated for existing therapy clients where clinica…",
+              "name": "text_12",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Coaching",
+          "name": "coaching",
+          "file": "content/pages/coaching.json",
+          "fields": [
+            {
+              "label": "Life Coaching (Outside of California)",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Values-based coaching for growth and transition.",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "For individuals who live outside of California, I offer life coaching ser…",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Coaching is future-focused and goal-oriented. Together, we might clarify …",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Important distinctions",
+              "name": "text_05",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Coaching is not psychotherapy and does not include diagnosis or treatment…",
+              "name": "text_06",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Therapy services are provided only to clients who are physically located …",
+              "name": "text_07",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Coaching can be available to clients in other states or countries, depend…",
+              "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "If you’re unsure whether therapy or coaching is a better fit, we can disc…",
+              "name": "text_09",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Coaching Faq",
+          "name": "coaching_faq",
+          "file": "content/pages/coaching-faq.json",
+          "fields": [
+            {
+              "label": "Coaching FAQ",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Common questions about coaching",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: How is coaching different from therapy?",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Coaching is future-oriented and focused on goals, habits, and values-base…",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Who is coaching for?",
+              "name": "text_05",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Coaching may be a good fit if you’re generally stable but feeling stuck, …",
+              "name": "text_06",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Where can you work with coaching clients?",
+              "name": "text_07",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Coaching is available to clients who live outside of California, dependin…",
+              "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Is coaching covered by insurance?",
+              "name": "text_09",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Coaching is not considered medical or mental health treatment and is not …",
+              "name": "text_10",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Approach",
+          "name": "approach",
+          "file": "content/pages/approach.json",
+          "fields": [
+            {
+              "label": "Approach",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Evidence-based, relational, and grounded in your values.",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "My clinical work is rooted in Acceptance and Commitment Therapy (ACT),\n  …",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "In practical terms, this means we pay attention to your thoughts and feel…",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Sessions often include gentle exploration, guided awareness exercises,\n  …",
+              "name": "text_05",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Throughout our work, my intention is to offer a steady, attuned presence …",
+              "name": "text_06",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Mindful awareness",
+              "name": "text_07",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Learning to notice thoughts, emotions, and body sensations with curiosity…",
+              "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Values-based living",
+              "name": "text_09",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Clarifying what truly matters to you—connection, creativity, honesty, sta…",
+              "name": "text_10",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Compassionate change",
+              "name": "text_11",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Moving away from harsh self-criticism and toward a kinder, more supportiv…",
+              "name": "text_12",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Fees",
+          "name": "fees",
+          "file": "content/pages/fees.json",
+          "fields": [
+            {
+              "label": "Fees & FAQs",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Investment & availability",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Session fees",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Sliding scale options are available on a limited basis. If cost is a conc…",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Hours of operation",
+              "name": "text_06",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "All therapy sessions are offered via secure telehealth. Therapy clients m…",
+              "name": "text_07",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Book",
+          "name": "book",
+          "file": "content/pages/book.json",
+          "fields": [
+            {
+              "label": "Book an Appointment",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Next steps to schedule.",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "For individual therapy, you can visit my Headway profile to check insuran…",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "After we confirm a time, you can add the appointment to your personal cal…",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: How to book",
+              "name": "text_05",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "For individual therapy, use the Headway booking link below.",
+              "name": "text_06",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "For a free consultation, couples therapy, breathwork, or coaching, email …",
+              "name": "text_07",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Once your appointment is confirmed, you can add it to your Apple or other…",
+              "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Contact",
+          "name": "contact",
+          "file": "content/pages/contact.json",
+          "fields": [
+            {
+              "label": "Contact",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Ready to get started?",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Email or call to request a free 15-minute consultation or ask about thera…",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Please do not include sensitive personal or clinical information in an in…",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Heading: Contact Rachel",
+              "name": "text_05",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Online therapy for adults and couples across California.",
+              "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "articles",
+      "label": "Reflections",
+      "label_singular": "Reflection",
+      "folder": "content/articles",
+      "create": true,
+      "delete": true,
+      "format": "json",
+      "extension": "json",
+      "slug": "{{slug}}",
+      "summary": "{{title}}",
+      "fields": [
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string"
+        },
+        {
+          "label": "Date",
+          "name": "date",
+          "widget": "datetime",
+          "date_format": "YYYY-MM-DD",
+          "time_format": false,
+          "format": "YYYY-MM-DD"
+        },
+        {
+          "label": "Show on website",
+          "name": "published",
+          "widget": "boolean",
+          "default": false,
+          "hint": "Keep this off while drafting. Turn it on when ready to publish."
+        },
+        {
+          "label": "Category",
+          "name": "category",
+          "widget": "string",
+          "default": "Reflections"
+        },
+        {
+          "label": "Short introduction",
+          "name": "summary",
+          "widget": "text"
+        },
+        {
+          "label": "Article",
+          "name": "body",
+          "widget": "markdown"
+        },
+        {
+          "label": "Optional PDF",
+          "name": "pdf",
+          "widget": "file",
+          "required": false,
+          "hint": "PDF files are separate from article text. Upload a revised PDF after editing, or remove this download."
+        },
+        {
+          "label": "PDF link label",
+          "name": "pdf_label",
+          "widget": "string",
+          "required": false,
+          "default": "Download reflection (PDF)"
+        }
+      ]
+    }
+  ]
+}
