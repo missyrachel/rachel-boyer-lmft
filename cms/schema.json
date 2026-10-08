@@ -131,7 +131,7 @@
               ]
             },
             {
-              "label": "Heading: Support for the season of life you are in right now.",
+              "label": "Support for the season of life you are in right now.",
               "name": "text_02",
               "widget": "markdown",
               "minimal": true,
@@ -147,7 +147,7 @@
               ]
             },
             {
-              "label": "I offer warm, grounded, evidence-based therapy to help you move from over…",
+              "label": "I offer warm, grounded, evidence-based therapy to help you move fro…",
               "name": "text_03",
               "widget": "markdown",
               "minimal": true,
@@ -179,7 +179,7 @@
               ]
             },
             {
-              "label": "Heading: Is this you?",
+              "label": "Is this you?",
               "name": "text_05",
               "widget": "markdown",
               "minimal": true,
@@ -195,7 +195,7 @@
               ]
             },
             {
-              "label": "You feel “on” for everyone else but struggle to slow down and feel grounded.",
+              "label": "You feel “on” for everyone else but struggle to slow down and feel …",
               "name": "text_06",
               "widget": "markdown",
               "minimal": true,
@@ -243,7 +243,7 @@
               ]
             },
             {
-              "label": "You want tools that are practical and actionable, not just “talking about…",
+              "label": "You want tools that are practical and actionable, not just “talking…",
               "name": "text_09",
               "widget": "markdown",
               "minimal": true,
@@ -259,7 +259,7 @@
               ]
             },
             {
-              "label": "Therapy can be a place to pause, breathe, and gently reconnect with yours…",
+              "label": "Therapy can be a place to pause, breathe, and gently reconnect with…",
               "name": "text_10",
               "widget": "markdown",
               "minimal": true,
@@ -298,7 +298,7 @@
               ]
             },
             {
-              "label": "Heading: Hi, I’m Rachel.",
+              "label": "Hi, I’m Rachel.",
               "name": "text_02",
               "widget": "markdown",
               "minimal": true,
@@ -314,7 +314,7 @@
               ]
             },
             {
-              "label": "I’m a Licensed Marriage and Family Therapist (LMFT) offering online thera…",
+              "label": "I’m a Licensed Marriage and Family Therapist (LMFT) offering online…",
               "name": "text_03",
               "widget": "markdown",
               "minimal": true,
@@ -330,7 +330,7 @@
               ]
             },
             {
-              "label": "My style is warm, collaborative, and gently direct. I value honesty, curi…",
+              "label": "My style is warm, collaborative, and gently direct. I value honesty…",
               "name": "text_04",
               "widget": "markdown",
               "minimal": true,
@@ -346,7 +346,7 @@
               ]
             },
             {
-              "label": "In our work, I often draw on mindfulness and embodied awareness, helping …",
+              "label": "In our work, I often draw on mindfulness and embodied awareness, he…",
               "name": "text_05",
               "widget": "markdown",
               "minimal": true,
@@ -362,7 +362,7 @@
               ]
             },
             {
-              "label": "Heading: Areas of focus & specialties",
+              "label": "Areas of focus & specialties",
               "name": "text_06",
               "widget": "markdown",
               "minimal": true,
@@ -545,7 +545,7 @@
               ]
             },
             {
-              "label": "Heading: How we can work together",
+              "label": "How we can work together",
               "name": "text_02",
               "widget": "markdown",
               "minimal": true,
@@ -561,7 +561,7 @@
               ]
             },
             {
-              "label": "Heading: Individual Therapy",
+              "label": "Individual Therapy",
               "name": "text_03",
               "widget": "markdown",
               "minimal": true,
@@ -577,7 +577,7 @@
               ]
             },
             {
-              "label": "50-minute sessions focused on your unique story, strengths, and goals.\n  …",
+              "label": "50-minute sessions focused on your unique story, strengths, and goa…",
               "name": "text_04",
               "widget": "markdown",
               "minimal": true,
@@ -593,7 +593,7 @@
               ]
             },
             {
-              "label": "Heading: Couples & Relationship Therapy",
+              "label": "Couples & Relationship Therapy",
               "name": "text_05",
               "widget": "markdown",
               "minimal": true,
@@ -609,7 +609,7 @@
               ]
             },
             {
-              "label": "For partners navigating conflict, communication struggles, life transitio…",
+              "label": "For partners navigating conflict, communication struggles, life tra…",
               "name": "text_06",
               "widget": "markdown",
               "minimal": true,
@@ -625,7 +625,7 @@
               ]
             },
             {
-              "label": "Heading: Consultation",
+              "label": "Consultation",
               "name": "text_07",
               "widget": "markdown",
               "minimal": true,
@@ -641,8 +641,207 @@
               ]
             },
             {
-              "label": "Brief consultation and collaboration with other providers, such as psychi…",
+              "label": "Brief consultation and collaboration with other providers, such as …",
               "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "expect",
+          "label": "What to expect in therapy",
+          "file": "content/pages/expect.json",
+          "fields": [
+            {
+              "label": "What to expect",
+              "name": "text_01",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "A place to arrive as you are.",
+              "name": "text_02",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "You do not need to have the right words, a clear goal, or everythin…",
+              "name": "text_03",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Our first session is a conversation about what brings you here, wha…",
+              "name": "text_04",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Therapy with me is collaborative. Together, we’ll identify prioriti…",
+              "name": "text_05",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "What our work can look like",
+              "name": "text_06",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "At your pace",
+              "name": "text_07",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "You choose what you are ready to share. We can slow down, pause, or…",
+              "name": "text_08",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Practical support",
+              "name": "text_09",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Alongside conversation, we may practice grounding, mindful awarenes…",
+              "name": "text_10",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Meeting online",
+              "name": "text_11",
+              "widget": "markdown",
+              "minimal": true,
+              "buttons": [
+                "bold",
+                "italic",
+                "link"
+              ],
+              "editor_components": [],
+              "modes": [
+                "rich_text",
+                "raw"
+              ]
+            },
+            {
+              "label": "Sessions take place by secure video. Choose a private, comfortable …",
+              "name": "text_12",
               "widget": "markdown",
               "minimal": true,
               "buttons": [
@@ -680,7 +879,7 @@
               ]
             },
             {
-              "label": "Heading: Breath as a doorway to deeper awareness.",
+              "label": "Breath as a doorway to deeper awareness.",
               "name": "text_02",
               "widget": "markdown",
               "minimal": true,
@@ -696,7 +895,7 @@
               ]
             },
             {
-              "label": "In addition to talk therapy, I offer neurodynamic-style breathwork sessio…",
+              "label": "In addition to talk therapy, I offer neurodynamic-style breathwork …",
               "name": "text_03",
               "widget": "markdown",
               "minimal": true,
@@ -712,7 +911,7 @@
               ]
             },
             {
-              "label": "Breathwork can support release of stored tension, increase access to emot…",
+              "label": "Breathwork can support release of stored tension, increase access t…",
               "name": "text_04",
               "widget": "markdown",
               "minimal": true,
@@ -728,7 +927,7 @@
               ]
             },
             {
-              "label": "We will always discuss your history, intentions, and any medical or psych…",
+              "label": "We will always discuss your history, intentions, and any medical or…",
               "name": "text_05",
               "widget": "markdown",
               "minimal": true,
@@ -744,7 +943,7 @@
               ]
             },
             {
-              "label": "Heading: Breathwork sessions may support",
+              "label": "Breathwork sessions may support",
               "name": "text_06",
               "widget": "markdown",
               "minimal": true,
@@ -840,326 +1039,8 @@
               ]
             },
             {
-              "label": "Breathwork can be incorporated for existing therapy clients where clinica…",
+              "label": "Breathwork can be incorporated for existing therapy clients where c…",
               "name": "text_12",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Coaching",
-          "name": "coaching",
-          "file": "content/pages/coaching.json",
-          "fields": [
-            {
-              "label": "Life Coaching (Outside of California)",
-              "name": "text_01",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Heading: Values-based coaching for growth and transition.",
-              "name": "text_02",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "For individuals who live outside of California, I offer life coaching ser…",
-              "name": "text_03",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Coaching is future-focused and goal-oriented. Together, we might clarify …",
-              "name": "text_04",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Heading: Important distinctions",
-              "name": "text_05",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Coaching is not psychotherapy and does not include diagnosis or treatment…",
-              "name": "text_06",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Therapy services are provided only to clients who are physically located …",
-              "name": "text_07",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Coaching can be available to clients in other states or countries, depend…",
-              "name": "text_08",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "If you’re unsure whether therapy or coaching is a better fit, we can disc…",
-              "name": "text_09",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Coaching Faq",
-          "name": "coaching_faq",
-          "file": "content/pages/coaching-faq.json",
-          "fields": [
-            {
-              "label": "Coaching FAQ",
-              "name": "text_01",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Heading: Common questions about coaching",
-              "name": "text_02",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Heading: How is coaching different from therapy?",
-              "name": "text_03",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Coaching is future-oriented and focused on goals, habits, and values-base…",
-              "name": "text_04",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Heading: Who is coaching for?",
-              "name": "text_05",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Coaching may be a good fit if you’re generally stable but feeling stuck, …",
-              "name": "text_06",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Heading: Where can you work with coaching clients?",
-              "name": "text_07",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Coaching is available to clients who live outside of California, dependin…",
-              "name": "text_08",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Heading: Is coaching covered by insurance?",
-              "name": "text_09",
-              "widget": "markdown",
-              "minimal": true,
-              "buttons": [
-                "bold",
-                "italic",
-                "link"
-              ],
-              "editor_components": [],
-              "modes": [
-                "rich_text",
-                "raw"
-              ]
-            },
-            {
-              "label": "Coaching is not considered medical or mental health treatment and is not …",
-              "name": "text_10",
               "widget": "markdown",
               "minimal": true,
               "buttons": [
@@ -1197,7 +1078,7 @@
               ]
             },
             {
-              "label": "Heading: Evidence-based, relational, and grounded in your values.",
+              "label": "Acceptance and Commitment Therapy (ACT)",
               "name": "text_02",
               "widget": "markdown",
               "minimal": true,
@@ -1213,7 +1094,7 @@
               ]
             },
             {
-              "label": "My clinical work is rooted in Acceptance and Commitment Therapy (ACT),\n  …",
+              "label": "ACT (pronounced “act”) combines mindfulness, acceptance, and practi…",
               "name": "text_03",
               "widget": "markdown",
               "minimal": true,
@@ -1229,7 +1110,7 @@
               ]
             },
             {
-              "label": "In practical terms, this means we pay attention to your thoughts and feel…",
+              "label": "We practice noticing thoughts as thoughts, rather than automaticall…",
               "name": "text_04",
               "widget": "markdown",
               "minimal": true,
@@ -1245,7 +1126,7 @@
               ]
             },
             {
-              "label": "Sessions often include gentle exploration, guided awareness exercises,\n  …",
+              "label": "For example, you might notice the thought “I’m not good enough” bef…",
               "name": "text_05",
               "widget": "markdown",
               "minimal": true,
@@ -1261,7 +1142,7 @@
               ]
             },
             {
-              "label": "Throughout our work, my intention is to offer a steady, attuned presence …",
+              "label": "I weave ACT into a warm, collaborative approach that also draws on …",
               "name": "text_06",
               "widget": "markdown",
               "minimal": true,
@@ -1277,7 +1158,7 @@
               ]
             },
             {
-              "label": "Heading: Mindful awareness",
+              "label": "Mindful awareness",
               "name": "text_07",
               "widget": "markdown",
               "minimal": true,
@@ -1293,7 +1174,7 @@
               ]
             },
             {
-              "label": "Learning to notice thoughts, emotions, and body sensations with curiosity…",
+              "label": "Learning to notice thoughts, emotions, and body sensations with cur…",
               "name": "text_08",
               "widget": "markdown",
               "minimal": true,
@@ -1309,7 +1190,7 @@
               ]
             },
             {
-              "label": "Heading: Values-based living",
+              "label": "Values-based living",
               "name": "text_09",
               "widget": "markdown",
               "minimal": true,
@@ -1325,7 +1206,7 @@
               ]
             },
             {
-              "label": "Clarifying what truly matters to you—connection, creativity, honesty, sta…",
+              "label": "Clarifying what truly matters to you—connection, creativity, honest…",
               "name": "text_10",
               "widget": "markdown",
               "minimal": true,
@@ -1341,7 +1222,7 @@
               ]
             },
             {
-              "label": "Heading: Compassionate change",
+              "label": "Compassionate change",
               "name": "text_11",
               "widget": "markdown",
               "minimal": true,
@@ -1357,7 +1238,7 @@
               ]
             },
             {
-              "label": "Moving away from harsh self-criticism and toward a kinder, more supportiv…",
+              "label": "Moving away from harsh self-criticism and toward a kinder, more sup…",
               "name": "text_12",
               "widget": "markdown",
               "minimal": true,
@@ -1396,7 +1277,7 @@
               ]
             },
             {
-              "label": "Heading: Investment & availability",
+              "label": "Investment & availability",
               "name": "text_02",
               "widget": "markdown",
               "minimal": true,
@@ -1412,7 +1293,7 @@
               ]
             },
             {
-              "label": "Heading: Session fees",
+              "label": "Session fees",
               "name": "text_03",
               "widget": "markdown",
               "minimal": true,
@@ -1428,7 +1309,7 @@
               ]
             },
             {
-              "label": "Sliding scale options are available on a limited basis. If cost is a conc…",
+              "label": "Sliding scale options are available on a limited basis. If cost is …",
               "name": "text_04",
               "widget": "markdown",
               "minimal": true,
@@ -1444,7 +1325,7 @@
               ]
             },
             {
-              "label": "Heading: Hours of operation",
+              "label": "Hours of operation",
               "name": "text_06",
               "widget": "markdown",
               "minimal": true,
@@ -1460,7 +1341,7 @@
               ]
             },
             {
-              "label": "All therapy sessions are offered via secure telehealth. Therapy clients m…",
+              "label": "All therapy sessions are offered via secure telehealth. Therapy cli…",
               "name": "text_07",
               "widget": "markdown",
               "minimal": true,
@@ -1499,7 +1380,7 @@
               ]
             },
             {
-              "label": "Heading: Next steps to schedule.",
+              "label": "Next steps to schedule.",
               "name": "text_02",
               "widget": "markdown",
               "minimal": true,
@@ -1515,7 +1396,7 @@
               ]
             },
             {
-              "label": "For individual therapy, you can visit my Headway profile to check insuran…",
+              "label": "For individual therapy, you can visit my Headway profile to check i…",
               "name": "text_03",
               "widget": "markdown",
               "minimal": true,
@@ -1531,7 +1412,7 @@
               ]
             },
             {
-              "label": "After we confirm a time, you can add the appointment to your personal cal…",
+              "label": "After we confirm a time, you can add the appointment to your person…",
               "name": "text_04",
               "widget": "markdown",
               "minimal": true,
@@ -1547,7 +1428,7 @@
               ]
             },
             {
-              "label": "Heading: How to book",
+              "label": "How to book",
               "name": "text_05",
               "widget": "markdown",
               "minimal": true,
@@ -1579,7 +1460,7 @@
               ]
             },
             {
-              "label": "For a free consultation, couples therapy, breathwork, or coaching, email …",
+              "label": "For a free consultation, couples therapy or breathwork, email or ca…",
               "name": "text_07",
               "widget": "markdown",
               "minimal": true,
@@ -1595,7 +1476,7 @@
               ]
             },
             {
-              "label": "Once your appointment is confirmed, you can add it to your Apple or other…",
+              "label": "Once your appointment is confirmed, you can add it to your Apple or…",
               "name": "text_08",
               "widget": "markdown",
               "minimal": true,
@@ -1634,7 +1515,7 @@
               ]
             },
             {
-              "label": "Heading: Ready to get started?",
+              "label": "Ready to get started?",
               "name": "text_02",
               "widget": "markdown",
               "minimal": true,
@@ -1650,7 +1531,7 @@
               ]
             },
             {
-              "label": "Email or call to request a free 15-minute consultation or ask about thera…",
+              "label": "Email or call to request a free 15-minute consultation or ask about…",
               "name": "text_03",
               "widget": "markdown",
               "minimal": true,
@@ -1666,7 +1547,7 @@
               ]
             },
             {
-              "label": "Please do not include sensitive personal or clinical information in an in…",
+              "label": "Please do not include sensitive personal or clinical information in…",
               "name": "text_04",
               "widget": "markdown",
               "minimal": true,
@@ -1682,7 +1563,7 @@
               ]
             },
             {
-              "label": "Heading: Contact Rachel",
+              "label": "Contact Rachel",
               "name": "text_05",
               "widget": "markdown",
               "minimal": true,

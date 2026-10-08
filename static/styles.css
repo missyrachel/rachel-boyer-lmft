@@ -8,8 +8,8 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  color: #1f2933;
-  background-color: #f7f5f3;
+  color: #352b39;
+  background-color: #f8f5fc;
   line-height: 1.6;
 }
 
@@ -29,9 +29,9 @@ a {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(247, 245, 243, 0.96);
+  background: rgba(248, 245, 252, 0.97);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid #e2ddd7;
+  border-bottom: 1px solid #d8cbe6;
 }
 
 .header-inner {
@@ -52,13 +52,13 @@ a {
   width: 40px;
   height: 40px;
   border-radius: 999px;
-  border: 1px solid #d6c8ba;
+  border: 1px solid #bba4d1;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 600;
   font-size: 0.95rem;
-  background: linear-gradient(135deg, #f4ebe3, #e2d4c4);
+  background: linear-gradient(135deg, #eee4f8, #d8cbe6);
 }
 
 .brand-text {
@@ -74,7 +74,7 @@ a {
 
 .brand-subtitle {
   font-size: 0.8rem;
-  color: #6b7280;
+  color: #675971;
 }
 
 .nav {
@@ -90,18 +90,18 @@ a {
 }
 
 .nav a:hover {
-  background: #ebe3da;
+  background: #e8dcf3;
 }
 
 .nav-cta {
-  border: 1px solid #c9b7a3;
+  border: 1px solid #ac91c4;
   padding: 0.35rem 0.9rem;
   border-radius: 999px;
   font-weight: 500;
 }
 
 .nav-cta:hover {
-  background: #d9cabb;
+  background: #dac8ec;
 }
 
 .hero {
@@ -123,7 +123,7 @@ a {
 
 .hero-subtitle {
   font-size: 1rem;
-  color: #4b5563;
+  color: #584961;
   max-width: 36rem;
 }
 
@@ -147,25 +147,25 @@ a {
 }
 
 .btn.primary {
-  background: #b88a63;
-  border-color: #b88a63;
-  color: #fdfaf7;
+  background: #72508d;
+  border-color: #72508d;
+  color: #fdfbff;
 }
 
 .btn.primary:hover {
-  background: #a57850;
-  border-color: #a57850;
+  background: #59386f;
+  border-color: #59386f;
   transform: translateY(-1px);
 }
 
 .btn.ghost {
   background: transparent;
-  border-color: #c9b7a3;
-  color: #4b5563;
+  border-color: #ac91c4;
+  color: #584961;
 }
 
 .btn.ghost:hover {
-  background: #ebe3da;
+  background: #e8dcf3;
 }
 
 .btn.full-width {
@@ -174,16 +174,16 @@ a {
 
 .note {
   font-size: 0.85rem;
-  color: #6b7280;
+  color: #675971;
   margin-top: 0.5rem;
 }
 
 .hero-card {
-  background: #fbf8f5;
+  background: #fdfbff;
   border-radius: 1.25rem;
-  border: 1px solid #e2d4c4;
+  border: 1px solid #d8cbe6;
   padding: 1.5rem 1.3rem;
-  box-shadow: 0 18px 35px rgba(148, 116, 86, 0.1);
+  box-shadow: 0 18px 35px rgba(92, 58, 119, 0.10);
 }
 
 .hero-card h2 {
@@ -203,7 +203,7 @@ a {
 
 .hero-card-text {
   font-size: 0.9rem;
-  color: #4b5563;
+  color: #584961;
 }
 
 .section {
@@ -211,9 +211,9 @@ a {
 }
 
 .section-alt {
-  background: #f0ebe6;
-  border-top: 1px solid #e2d4c4;
-  border-bottom: 1px solid #e2d4c4;
+  background: #eee5f7;
+  border-top: 1px solid #d8cbe6;
+  border-bottom: 1px solid #d8cbe6;
 }
 
 .section-grid {
@@ -227,7 +227,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   font-size: 0.75rem;
-  color: #8c7357;
+  color: #72508d;
   font-weight: 600;
 }
 
@@ -243,9 +243,9 @@ a {
 .about-card,
 .contact-card,
 .card {
-  background: #fbf8f5;
+  background: #fdfbff;
   border-radius: 1.25rem;
-  border: 1px solid #e2d4c4;
+  border: 1px solid #d8cbe6;
   padding: 1.5rem 1.4rem;
 }
 
@@ -289,8 +289,8 @@ a {
 .pillar {
   padding: 1rem 1rem;
   border-radius: 0.9rem;
-  border: 1px solid #e2d4c4;
-  background: #fdfaf7;
+  border: 1px solid #d8cbe6;
+  background: #fdfbff;
 }
 
 .pillar h3 {
@@ -299,7 +299,7 @@ a {
 }
 
 .contact-section {
-  background: #f7f5f3;
+  background: #f8f5fc;
 }
 
 .contact-card form {
@@ -318,15 +318,15 @@ label {
 input,
 textarea {
   border-radius: 0.75rem;
-  border: 1px solid #d1c4b5;
+  border: 1px solid #ac91c4;
   padding: 0.65rem 0.75rem;
   font: inherit;
-  background: #fdfaf7;
+  background: #fdfbff;
 }
 
 input:focus,
 textarea:focus {
-  outline: 2px solid #c29a72;
+  outline: 2px solid #72508d;
   outline-offset: 1px;
 }
 
@@ -337,15 +337,15 @@ textarea {
 
 .form-note {
   font-size: 0.78rem;
-  color: #6b7280;
+  color: #675971;
 }
 
 .site-footer {
-  border-top: 1px solid #e2ddd7;
+  border-top: 1px solid #d8cbe6;
   padding: 1.75rem 0 2.25rem;
-  background: #f5f1ec;
+  background: #e9dff3;
   font-size: 0.85rem;
-  color: #4b5563;
+  color: #584961;
 }
 
 .footer-inner {
@@ -368,7 +368,7 @@ textarea {
 }
 
 .footer-links a:hover {
-  background: #e4d6c7;
+  background: #dac8ec;
 }
 
 .brand-footer {
@@ -377,7 +377,7 @@ textarea {
 }
 
 .footer-text {
-  color: #6b7280;
+  color: #675971;
 }
 
 @media (max-width: 900px) {
@@ -433,3 +433,14 @@ textarea {
 .contact-call-card h3 { margin-top:0; }
 .phone-number { color:#503956; font-size:1.5rem; font-weight:650; text-decoration:underline; text-underline-offset:3px; }
 .phone-number:hover { color:#76547f; }
+
+/* Lavender accents and comfortable reading widths. */
+h1,h2,h3 { color:#50365f; }
+.hero { background:linear-gradient(135deg,#f8f5fc 25%,#ede2f7); }
+.expect-intro { max-width:48rem; }
+.section { scroll-margin-top:8rem; }
+.nav { flex-wrap:wrap; gap:.45rem; }
+.header-inner { padding-left:1.25rem; padding-right:1.25rem; }
+.nav a { white-space:nowrap; }
+a:focus-visible { outline:3px solid #72508d; outline-offset:4px; }
+@media(max-width:900px) { .site-header { position:relative; } .nav { overflow-x:visible; } .section { scroll-margin-top:1rem; } }

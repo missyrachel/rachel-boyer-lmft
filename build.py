@@ -108,7 +108,7 @@ def build(preview=False):
  else:
   (out/'admin/index.html').write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Editor setup pending</title></head><body><h1>Editor setup pending</h1><p>The website files are prepared. GitHub and Netlify authentication must be connected before the editor can save or publish.</p><a href="/">View prepared website</a></body></html>')
  (out/'404.html').write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found | Rachel Boyer</title><link rel="stylesheet" href="/styles.css"></head><body><main class="container section"><h1>That page could not be found.</h1><p><a href="/">Return to Rachel’s website</a></p></main></body></html>')
- print(f'Built {len(articles)} published reflection(s), 10 editable sections, and practice settings. Editor '+('configured; login requires Netlify OAuth.' if repo else 'awaiting GitHub connection.'))
+ print(f'Built {len(articles)} published reflection(s), {len(list((ROOT/'content/pages').glob('*.json')))} editable sections, and practice settings. Editor '+('configured; login requires Netlify OAuth.' if repo else 'awaiting GitHub connection.'))
 
 if __name__=='__main__':
  parser=argparse.ArgumentParser();parser.add_argument('--preview',action='store_true');args=parser.parse_args();build(args.preview)

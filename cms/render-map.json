@@ -211,94 +211,6 @@
       ]
     }
   },
-  "coaching.text_01": {
-    "tag": "p",
-    "attrs": {
-      "class": [
-        "eyebrow"
-      ]
-    }
-  },
-  "coaching.text_02": {
-    "tag": "h2",
-    "attrs": {}
-  },
-  "coaching.text_03": {
-    "tag": "p",
-    "attrs": {}
-  },
-  "coaching.text_04": {
-    "tag": "p",
-    "attrs": {}
-  },
-  "coaching.text_05": {
-    "tag": "h3",
-    "attrs": {}
-  },
-  "coaching.text_06": {
-    "tag": "li",
-    "attrs": {}
-  },
-  "coaching.text_07": {
-    "tag": "li",
-    "attrs": {}
-  },
-  "coaching.text_08": {
-    "tag": "li",
-    "attrs": {}
-  },
-  "coaching.text_09": {
-    "tag": "p",
-    "attrs": {
-      "class": [
-        "note"
-      ]
-    }
-  },
-  "coaching-faq.text_01": {
-    "tag": "p",
-    "attrs": {
-      "class": [
-        "eyebrow"
-      ]
-    }
-  },
-  "coaching-faq.text_02": {
-    "tag": "h2",
-    "attrs": {}
-  },
-  "coaching-faq.text_03": {
-    "tag": "h3",
-    "attrs": {}
-  },
-  "coaching-faq.text_04": {
-    "tag": "p",
-    "attrs": {}
-  },
-  "coaching-faq.text_05": {
-    "tag": "h3",
-    "attrs": {}
-  },
-  "coaching-faq.text_06": {
-    "tag": "p",
-    "attrs": {}
-  },
-  "coaching-faq.text_07": {
-    "tag": "h3",
-    "attrs": {}
-  },
-  "coaching-faq.text_08": {
-    "tag": "p",
-    "attrs": {}
-  },
-  "coaching-faq.text_09": {
-    "tag": "h3",
-    "attrs": {}
-  },
-  "coaching-faq.text_10": {
-    "tag": "p",
-    "attrs": {}
-  },
   "approach.text_01": {
     "tag": "p",
     "attrs": {
@@ -444,6 +356,58 @@
     "attrs": {}
   },
   "contact.text_08": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "expect.text_01": {
+    "tag": "p",
+    "attrs": {
+      "class": [
+        "eyebrow"
+      ]
+    }
+  },
+  "expect.text_02": {
+    "tag": "h2",
+    "attrs": {}
+  },
+  "expect.text_03": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "expect.text_04": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "expect.text_05": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "expect.text_06": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "expect.text_07": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "expect.text_08": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "expect.text_09": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "expect.text_10": {
+    "tag": "p",
+    "attrs": {}
+  },
+  "expect.text_11": {
+    "tag": "h3",
+    "attrs": {}
+  },
+  "expect.text_12": {
     "tag": "p",
     "attrs": {}
   }
