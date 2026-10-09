@@ -7,19 +7,20 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>{{title}}</title>
 <meta content="{{description}}" name="description"/>
-<link href="styles.css" rel="stylesheet"/>
+<link href="/styles.css" rel="stylesheet"/>
 <link href="/cms-site.css" rel="stylesheet"/></head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header class="site-header">
 <div class="container header-inner">
-<div class="brand">
+<a class="brand" href="/" aria-label="Rachel Boyer, LMFT home">
 <div class="brand-mark">RB</div>
 <div class="brand-text">
 <div class="brand-name">Rachel Boyer, LMFT</div>
 <div class="brand-subtitle">Licensed Marriage &amp; Family Therapist · California</div>
 </div>
-</div>
-<nav class="nav">
+</a>
+<nav class="nav" aria-label="Main navigation">
 <a href="#about">About</a>
 <a href="#services">Services</a>
 <a href="#breathwork">Breathwork</a>
@@ -31,7 +32,7 @@
 </nav>
 </div>
 </header>
-<main>
+<main id="main-content">
 <section class="hero">
 <div class="container hero-grid">
 <div class="hero-text">
@@ -39,8 +40,8 @@
 {{welcome.text_02}}
 {{welcome.text_03}}
 <div class="hero-actions">
-<a class="btn primary" href="{{booking_url}}">Book therapy through Headway</a>
-<a class="btn ghost" href="#approach">Learn about my approach</a>
+<a class="btn primary" href="{{booking_url}}">Check insurance &amp; book</a>
+<a class="btn ghost" href="#contact">Inquire about private-pay therapy</a>
 </div>
 {{welcome.text_04}}
 </div>
@@ -61,7 +62,7 @@
 <div>
 {{about.text_01}}
 {{about.text_02}}
-<img alt="Rachel Boyer headshot" src="{{headshot}}" style="max-width:250px;border-radius:16px;margin:1rem 0;"/>
+<img alt="Rachel Boyer headshot" src="{{headshot}}" loading="lazy" decoding="async" style="max-width:250px;width:100%;height:auto;border-radius:16px;margin:1rem 0;"/>
 {{about.text_03}}
 {{about.text_04}}
 {{about.text_05}}
@@ -102,6 +103,7 @@
 </div>
 </div>
 </section>
+{{specialties_html}}
 <section class="section section-alt" id="expect">
 <div class="container">
 <div class="expect-intro">
@@ -206,8 +208,8 @@
 {{book.text_08}}
 </ol>
 <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
-<a class="btn primary" href="{{booking_url}}">Book therapy through Headway</a>
-<a class="btn ghost" href="#contact">Contact me first</a>
+<a class="btn primary" href="{{booking_url}}">Check insurance &amp; book</a>
+<a class="btn ghost" href="#contact">Inquire about private-pay therapy</a>
 </div>
 </div>
 </div>

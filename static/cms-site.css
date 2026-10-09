@@ -7,4 +7,16 @@ a:focus-visible,input:focus-visible{outline:3px solid #795294;outline-offset:4px
 .reflection-content img{max-width:100%;height:auto}
 .reflection-actions{display:flex;flex-wrap:wrap;gap:.75rem}
 .contact-card a{overflow-wrap:anywhere}
+.brand{text-decoration:none;color:inherit}
+.skip-link{position:absolute;left:1rem;top:-10rem;z-index:100;background:#fff;padding:1rem;border:2px solid #795294;border-radius:8px}
+.skip-link:focus{top:1rem}
+.specialty-content{max-width:780px}
+.specialty-content h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.15}
+.specialty-content h2{margin-top:2rem;font-size:1.55rem}
+.specialty-content p{line-height:1.8}
+.specialty-byline{color:#65586f}
+.related-links{display:flex;flex-wrap:wrap;gap:.75rem 2rem;padding-left:1.25rem}
+.card h3 a{text-decoration:none}
+.card h3 a:hover{text-decoration:underline}
+.specialty-content a,.related-links a,.section p a{ text-decoration:underline;text-underline-offset:3px }
 @media(max-width:640px){.cards-3{grid-template-columns:1fr}.reflection-card{width:100%}}
