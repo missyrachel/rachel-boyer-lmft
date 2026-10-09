@@ -32,7 +32,7 @@ def finalize(root,out,settings,pages,articles,md,header,footer):
  person={'@type':'Person','@id':ORIGIN+'/#rachel','name':'Rachel Boyer','jobTitle':'Licensed Marriage and Family Therapist','url':ORIGIN+'/','image':ORIGIN+settings['headshot'] if settings['headshot'].startswith('/') else settings['headshot'],'email':settings['email'],'telephone':settings['phone']}
  for path in sorted(out.rglob('*.html')):
   rel=path.relative_to(out).as_posix()
-  if rel.startswith('admin/') or rel=='404.html':continue
+  if rel.startswith('admin/') or rel=='404.html' or re.fullmatch(r'google[a-f0-9]+\.html',rel):continue
   route='/' if rel=='index.html' else '/reflections/' if rel=='reflections/index.html' else '/'+rel.removesuffix('.html')
   canonical=ORIGIN+route;urls.append(canonical)
   document=path.read_text()
