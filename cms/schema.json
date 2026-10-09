@@ -1661,6 +1661,41 @@
           "default": "Download reflection (PDF)"
         }
       ]
+    },
+    {
+      "name": "specialties",
+      "label": "Therapy specialty pages",
+      "folder": "content/specialties",
+      "extension": "json",
+      "format": "json",
+      "create": false,
+      "fields": [
+        {
+          "name": "title",
+          "label": "Search page title",
+          "widget": "string"
+        },
+        {
+          "name": "label",
+          "label": "Homepage card title",
+          "widget": "string"
+        },
+        {
+          "name": "description",
+          "label": "Search description",
+          "widget": "text"
+        },
+        {
+          "name": "heading",
+          "label": "Page heading",
+          "widget": "string"
+        },
+        {
+          "name": "body",
+          "label": "Page content",
+          "widget": "markdown"
+        }
+      ]
     }
   ]
 }

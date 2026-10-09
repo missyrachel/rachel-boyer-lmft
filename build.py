@@ -4,6 +4,7 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlsplit
 import markdown,bleach
+import seo
 
 ROOT=Path(__file__).resolve().parent
 ALLOWED=['p','br','strong','em','a','ul','ol','li','blockquote','h2','h3','h4','hr','code','pre','img']
@@ -84,6 +85,8 @@ def build(preview=False):
  articles.sort(key=lambda a:(a['date'],a['slug']),reverse=True)
  listing=cards(articles)
  values['reflections_html']='<section id="reflection" class="section section-alt"><div class="container"><p class="eyebrow">Reflections & resources</p><h2>A little space for reflection.</h2><p>Thoughts on connection, mindfulness, and living with greater self-compassion.</p><div class="cards-3">'+cards(articles[:3])+'</div><p><a class="btn ghost" href="/reflections/">Browse all reflections</a></p></div></section>'
+ specialties=seo.read_specialties(ROOT)
+ values['specialties_html']=seo.specialty_cards(specialties)
  # Clear only generated output, including removed/unpublished articles.
  out=ROOT/'dist'
  if out.exists():shutil.rmtree(out)
@@ -108,7 +111,8 @@ def build(preview=False):
  else:
   (out/'admin/index.html').write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Editor setup pending</title></head><body><h1>Editor setup pending</h1><p>The website files are prepared. GitHub and Netlify authentication must be connected before the editor can save or publish.</p><a href="/">View prepared website</a></body></html>')
  (out/'404.html').write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found | Rachel Boyer</title><link rel="stylesheet" href="/styles.css"></head><body><main class="container section"><h1>That page could not be found.</h1><p><a href="/">Return to Rachel’s website</a></p></main></body></html>')
- print(f'Built {len(articles)} published reflection(s), {len(list((ROOT/'content/pages').glob('*.json')))} editable sections, and practice settings. Editor '+('configured; login requires Netlify OAuth.' if repo else 'awaiting GitHub connection.'))
+ seo.finalize(ROOT,out,settings,specialties,articles,md,header,footer)
+ print(f'Built {len(articles)} published reflection(s), {len(specialties)} specialty pages, editable sections, search metadata and sitemap. Editor '+('configured; login requires Netlify OAuth.' if repo else 'awaiting GitHub connection.'))
 
 if __name__=='__main__':
  parser=argparse.ArgumentParser();parser.add_argument('--preview',action='store_true');args=parser.parse_args();build(args.preview)
